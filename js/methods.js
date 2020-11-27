@@ -6,6 +6,7 @@ const error = console.error
 
 // METODOS MANEJO DEL DOM
 const id = document.getElementById.bind(document)
+const clase = document.getElementsByClassName.bind(document)
 const q = document.querySelector.bind(document)
 const all = document.querySelectorAll.bind(document)
 
